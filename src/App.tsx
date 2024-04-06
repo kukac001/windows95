@@ -1,7 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Boot from "./components/Boot";
+import Desktop from "./components/Desktop";
+
 function App() {
   return (
     <>
-      <h1 className="">asd</h1>
+      <Routes>
+        <Route path="/" element={<Boot />} />
+        <Route path="/desktop" element={<Desktop />} />
+      </Routes>
     </>
   );
 }
