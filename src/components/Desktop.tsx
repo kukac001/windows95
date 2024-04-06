@@ -1,8 +1,8 @@
 const Desktop = () => {
-  return (
-    <div>
-      <p>Desktop</p>
-    </div>
-  );
+    return (
+        <div>
+            <p>Desktop</p>
+        </div>
+    );
 };
 export default Desktop;
